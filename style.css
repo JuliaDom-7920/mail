@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}
+body {
+	background-color: #f3f3f3;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+div.header {
+	width: calc(100% - 20px);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #7d7d7d;
+}
+div.header div.logo, div.header div.account {
+	padding: 15px 25px;
+	position: relative;
+	white-space: nowrap;
+}
+div.header div.logo:hover, div.header div.account:hover {
+	cursor: pointer;
+}
+div.header div.logo img {
+	width: 40px;
+	position: relative;
+	top: 1.5px;
+}
+div.header div.logo h1 {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	white-space: nowrap;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+div.header div.account a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	margin-right: 60px;
+	padding: 12px 0;
+	position: relative;
+}
+div.header div.account a:hover {
+	text-decoration: underline;
+}
+div.header div.account a::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(account.png);
+	background-size: 100%;
+	position: absolute;
+	top: 0.5px;
+	right: -60px;
+}
+div.content {
+	width: calc(100% - 70px);
+	display: flex;
+	padding: 15px 35px;
+}
+div.menu {
+	display: flex;
+	flex-direction: column;
+	width: 76px;
+	margin-right: 20px;
+}
+div.menu a {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 22px;
+}
+div.menu a:hover {
+	background-color: #ffc0cb3b;
+}
+div.menu a p {
+	display: none;
+}
+div.letters {
+	min-width: calc(296px - 20px);
+	width: calc(84% - 20px);
+}
+div.letters div.row {
+	padding: 13px;
+	border-bottom: 1px solid #e2e2e2;
+}
+div.letters div.row a {
+	display: flex;
+}
+div.letters div.row:hover {
+	background-color: #e8e8e8;
+}
+div.letters div.col {
+	display: flex;
+	flex-direction: column;
+	width: 77%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.letters div.row-1 {
+	display: flex;
+}
+div.letters div#star1, div.letters div#star2 {
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+	background-image: url(star1.svg);
+	background-size: 100%;
+}
+div.letters div#star2 {
+	background-image: url(star2.svg);
+}
+div.letters div#star1:hover {
+	background-image: url(star2.svg);
+}
+div.letters div#star2:hover {
+	background-image: url(star1.svg);
+}
+div.letters div.row-4 {
+	display: flex;
+	justify-content: flex-end;
+	width: 23%;
+}
+div.letters div.row-4 img {
+	width: 14px;
+	height: 14px;
+	margin-right: 25px;
+}
+div.letters div.row-4 p {
+	white-space: nowrap;
+}
+div.letters h2, div.letters h3 {
+	margin-left: 19px;
+	padding-top: 4px;
+	font-size: 14px;
+	font-weight: 400;
+}
+div.letters h3 {
+	color: #8e8e8e;
+}
+div.letters span {
+	display: none;
+}

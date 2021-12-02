@@ -1,0 +1,20 @@
+@media (min-width: 800px) {
+	div.letters {
+		width: 89%;
+	}
+	div.letters div.col {
+		display: flex;
+		flex-direction: row;
+	}	
+	div.letters div.row-1 p {
+		width: 150px;
+	}	
+	div.letters h2, div.letters h3 {
+		padding-top: 0;
+		margin-left: 0;
+	}
+	div.letters span {
+		display: inline;
+		padding: 0 5px;
+	}
+}

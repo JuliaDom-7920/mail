@@ -1,0 +1,28 @@
+@media (min-width: 550px) {
+	div.menu {
+		width: 210px;
+	}
+	div.menu a {
+		text-align: left;
+		position: relative;
+		white-space: nowrap;
+	}
+	div.menu a p {
+		display: inline-block;
+		position: relative;
+		top: -10px;
+		left: 10px;
+	}
+	div.letters {
+		width: calc(84% - 92px);
+	}
+	div.letters div#star1, div.letters div#star2 {
+		margin-right: 15px;
+	}
+	div.letters div.row-4 img {
+		margin-right: 45px;
+	}
+	div.letters h2, div.letters h3 {
+		margin-left: 29px;
+	}
+}
